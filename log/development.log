@@ -1,0 +1,1352 @@
+
+
+Started GET "/" for 72.193.47.225 at 2015-03-24 23:30:41 +0000
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.7ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:30:45 +0000
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.9ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:30:54 +0000
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.5ms)
+
+
+Started GET "/event" for 72.193.47.225 at 2015-03-24 23:30:56 +0000
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.9ms)
+
+
+Started GET "/locations" for 72.193.47.225 at 2015-03-24 23:31:00 +0000
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.4ms)
+
+
+Started GET "/events/index.html.erb" for 72.193.47.225 at 2015-03-24 23:31:14 +0000
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)):
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:418:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.4ms)
+
+
+Started GET "/events/index.html" for 72.193.47.225 at 2015-03-24 23:31:24 +0000
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)):
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:418:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.3ms)
+
+
+Started GET "/events/index" for 72.193.47.225 at 2015-03-24 23:31:30 +0000
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)):
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:418:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.6ms)
+
+
+Started GET "/events/edit" for 72.193.47.225 at 2015-03-24 23:31:45 +0000
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)):
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:418:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.4ms)
+
+
+Started GET "/events/edit.html.erb" for 72.193.47.225 at 2015-03-24 23:31:50 +0000
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)):
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:418:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.7ms)
+  [1m[36m (20.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (6.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateEvents (20150306160413)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150306160413"]]
+  [1m[35m (10.0ms)[0m  commit transaction
+Migrating to CreateLocations (20150306160428)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "tag" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150306160428"]]
+  [1m[35m (10.2ms)[0m  commit transaction
+Migrating to CreateEventsLocations (20150306160536)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "events_locations" ("location_id" integer, "event_id" integer) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_events_locations_on_location_id" ON "events_locations" ("location_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_events_locations_on_location_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_events_locations_on_location_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_events_locations_on_event_id" ON "events_locations" ("event_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306160536"]]
+  [1m[36m (13.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_events_locations_on_event_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_events_locations_on_event_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_events_locations_on_location_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_events_locations_on_location_id' AND type='index'
+
+
+
+Started GET "/" for 72.193.47.225 at 2015-03-24 23:32:57 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 88ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:33:03 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1222ms (Views: 1206.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/assets/locations.css?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/assets/application.css?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/assets/events.js?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/assets/locations.js?body=1" for 72.193.47.225 at 2015-03-24 23:33:04 +0000
+
+
+Started GET "/locations" for 72.193.47.225 at 2015-03-24 23:33:13 +0000
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  Rendered locations/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 110ms (Views: 100.3ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-24 23:33:32.869086"], ["name", "Event 1"], ["updated_at", "2015-03-24 23:33:32.869086"]]
+  [1m[35m (9.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "events" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-24 23:33:32.882931"], ["name", "Event 2"], ["updated_at", "2015-03-24 23:33:32.882931"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-24 23:33:32.901171"], ["name", "Location 1"], ["tag", "6DV1X9rl"], ["updated_at", "2015-03-24 23:33:32.901171"]]
+  [1m[35m (8.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-24 23:33:32.910962"], ["name", "Location 2"], ["tag", "W2vKaXGj"], ["updated_at", "2015-03-24 23:33:32.910962"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-24 23:33:32.921610"], ["name", "Location 3"], ["tag", "Djyli0vF"], ["updated_at", "2015-03-24 23:33:32.921610"]]
+  [1m[35m (6.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-24 23:33:32.930144"], ["name", "Location 4"], ["tag", "Dbzf6MdV"], ["updated_at", "2015-03-24 23:33:32.930144"]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-24 23:33:32.940020"], ["name", "Location 5"], ["tag", "J2uHhndF"], ["updated_at", "2015-03-24 23:33:32.940020"]]
+  [1m[35m (9.6ms)[0m  commit transaction
+
+
+Started GET "/" for 72.193.47.225 at 2015-03-24 23:33:40 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 78ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:33:44 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 112ms (Views: 96.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:33:46 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 56ms (Views: 51.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:33:48 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 92ms (Views: 90.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1/edit" for 72.193.47.225 at 2015-03-24 23:33:49 +0000
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mLocation Load (0.3ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 1 LIMIT 1[0m  [["event_id", 1]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 2 LIMIT 1  [["event_id", 1]]
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 3 LIMIT 1[0m  [["event_id", 1]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 4 LIMIT 1  [["event_id", 1]]
+  [1m[36mLocation Exists (1.1ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 5 LIMIT 1[0m  [["event_id", 1]]
+  Rendered events/_form.html.erb (71.3ms)
+  Rendered events/edit.html.erb within layouts/application (75.8ms)
+Completed 200 OK in 142ms (Views: 136.4ms | ActiveRecord: 3.1ms)
+
+
+Started PATCH "/events/1" for 72.193.47.225 at 2015-03-24 23:33:53 +0000
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JlP0rfl/AA5SQ+SSWLHf6HFBwWWPNyA9suD+S1dWmDY=", "event"=>{"name"=>"Event 1"}, "add_locations"=>["1", "2", "3"], "commit"=>"Update Event", "id"=>"1"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://scavengerhuntphase3-eisenste.c9.io/events/1
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:33:53 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 56ms (Views: 54.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:33:55 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:33:56 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:33:58 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:45:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 193ms (Views: 171.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:07 +0000
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:45:11 +0000
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:12 +0000
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:45:13 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 92ms (Views: 87.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1/edit" for 72.193.47.225 at 2015-03-24 23:45:14 +0000
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mLocation Load (0.3ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 1 LIMIT 1[0m  [["event_id", 1]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 2 LIMIT 1  [["event_id", 1]]
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 3 LIMIT 1[0m  [["event_id", 1]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 4 LIMIT 1  [["event_id", 1]]
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 5 LIMIT 1[0m  [["event_id", 1]]
+  Rendered events/_form.html.erb (56.4ms)
+  Rendered events/edit.html.erb within layouts/application (60.3ms)
+Completed 200 OK in 105ms (Views: 101.3ms | ActiveRecord: 2.0ms)
+
+
+Started PATCH "/events/1" for 72.193.47.225 at 2015-03-24 23:45:18 +0000
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JlP0rfl/AA5SQ+SSWLHf6HFBwWWPNyA9suD+S1dWmDY=", "event"=>{"name"=>"Event 1"}, "add_locations"=>["1", "2", "3"], "commit"=>"Update Event", "id"=>"1"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations"  WHERE "locations"."id" IN (1, 2, 3)[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)[0m  [["event_id", 1], ["location_id", 1]]
+  [1m[35m (11.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)  [["event_id", 1], ["location_id", 2]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)[0m  [["event_id", 1], ["location_id", 3]]
+  [1m[35m (9.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://scavengerhuntphase3-eisenste.c9.io/events/1
+Completed 302 Found in 52ms (ActiveRecord: 34.3ms)
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:45:18 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 58ms (Views: 56.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:18 +0000
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:45:21 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:45:22 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:45:27 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/2" for 72.193.47.225 at 2015-03-24 23:45:29 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 68ms (Views: 66.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events/2/edit" for 72.193.47.225 at 2015-03-24 23:45:31 +0000
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mLocation Load (0.3ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Exists (0.1ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 1 LIMIT 1  [["event_id", 2]]
+  [1m[36mLocation Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 2 LIMIT 1[0m  [["event_id", 2]]
+  [1m[35mLocation Exists (0.1ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 3 LIMIT 1  [["event_id", 2]]
+  [1m[36mLocation Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 4 LIMIT 1[0m  [["event_id", 2]]
+  [1m[35mLocation Exists (0.1ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 5 LIMIT 1  [["event_id", 2]]
+  Rendered events/_form.html.erb (11.3ms)
+  Rendered events/edit.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 1.1ms)
+
+
+Started PATCH "/events/2" for 72.193.47.225 at 2015-03-24 23:45:34 +0000
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JlP0rfl/AA5SQ+SSWLHf6HFBwWWPNyA9suD+S1dWmDY=", "event"=>{"name"=>"Event 2"}, "add_locations"=>["3", "4"], "commit"=>"Update Event", "id"=>"2"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mLocation Load (0.3ms)[0m  SELECT "locations".* FROM "locations"  WHERE "locations"."id" IN (3, 4)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)  [["event_id", 2], ["location_id", 3]]
+  [1m[36m (12.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)[0m  [["event_id", 2], ["location_id", 4]]
+  [1m[35m (10.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://scavengerhuntphase3-eisenste.c9.io/events/2
+Completed 302 Found in 33ms (ActiveRecord: 23.6ms)
+
+
+Started GET "/events/2" for 72.193.47.225 at 2015-03-24 23:45:34 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered events/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:45:35 +0000
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:45:40 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:45:42 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:45:44 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 78ms (Views: 76.7ms | ActiveRecord: 0.2ms)
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+  [1m[35mLocation Load (0.4ms)[0m  SELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?  [["event_id", 1]]
+
+
+Started GET "/" for 72.193.47.225 at 2015-03-24 23:49:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 22ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:49:10 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 118ms (Views: 101.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.193.47.225 at 2015-03-24 23:49:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:49:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:49:10 +0000
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:49:11 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mLocation Load (0.4ms)[0m  SELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?  [["event_id", 1]]
+  Rendered events/show.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 83ms (Views: 78.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:49:16 +0000
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/2" for 72.193.47.225 at 2015-03-24 23:49:19 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?[0m  [["event_id", 2]]
+  Rendered events/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 58ms (Views: 55.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:49:21 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 66ms (Views: 64.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/2/edit" for 72.193.47.225 at 2015-03-24 23:49:22 +0000
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mLocation Load (0.3ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 1 LIMIT 1[0m  [["event_id", 2]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 2 LIMIT 1  [["event_id", 2]]
+  [1m[36mLocation Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 3 LIMIT 1[0m  [["event_id", 2]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 4 LIMIT 1  [["event_id", 2]]
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 5 LIMIT 1[0m  [["event_id", 2]]
+  Rendered events/_form.html.erb (24.0ms)
+  Rendered events/edit.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 76ms (Views: 72.8ms | ActiveRecord: 1.5ms)
+
+
+Started PATCH "/events/2" for 72.193.47.225 at 2015-03-24 23:49:26 +0000
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JlP0rfl/AA5SQ+SSWLHf6HFBwWWPNyA9suD+S1dWmDY=", "event"=>{"name"=>"Event 2"}, "add_locations"=>["1", "2", "5"], "commit"=>"Update Event", "id"=>"2"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mLocation Load (0.3ms)[0m  [1mSELECT "locations".* FROM "locations"  WHERE "locations"."id" IN (1, 2, 5)[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)[0m  [["event_id", 2], ["location_id", 1]]
+  [1m[35m (13.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)  [["event_id", 2], ["location_id", 2]]
+  [1m[36m (13.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)[0m  [["event_id", 2], ["location_id", 5]]
+  [1m[35m (12.5ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://scavengerhuntphase3-eisenste.c9.io/events/2
+Completed 302 Found in 61ms (ActiveRecord: 41.9ms)
+
+
+Started GET "/events/2" for 72.193.47.225 at 2015-03-24 23:49:26 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mLocation Load (0.2ms)[0m  SELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?  [["event_id", 2]]
+  Rendered events/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.193.47.225 at 2015-03-24 23:49:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:49:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:49:26 +0000
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:49:28 +0000
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/2" for 72.193.47.225 at 2015-03-24 23:49:29 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?[0m  [["event_id", 2]]
+  Rendered events/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:49:31 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:49:33 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mLocation Load (0.2ms)[0m  SELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?  [["event_id", 1]]
+  Rendered events/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 63ms (Views: 59.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:49:37 +0000
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/2" for 72.193.47.225 at 2015-03-24 23:50:14 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?[0m  [["event_id", 2]]
+  Rendered events/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 65ms (Views: 62.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:51:28 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1" for 72.193.47.225 at 2015-03-24 23:51:29 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mLocation Load (0.2ms)[0m  SELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?  [["event_id", 1]]
+  Rendered events/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:51:34 +0000
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/2" for 72.193.47.225 at 2015-03-24 23:51:36 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mLocation Load (0.1ms)[0m  [1mSELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?[0m  [["event_id", 2]]
+  Rendered events/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:51:41 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for 72.193.47.225 at 2015-03-24 23:51:46 +0000
+Processing by EventsController#new as HTML
+  [1m[36mLocation Load (0.3ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  Rendered events/_form.html.erb (7.2ms)
+  Rendered events/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/events" for 72.193.47.225 at 2015-03-24 23:51:51 +0000
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JlP0rfl/AA5SQ+SSWLHf6HFBwWWPNyA9suD+S1dWmDY=", "event"=>{"name"=>"Test 1"}, "commit"=>"Create Event"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-24 23:51:51.151717"], ["name", "Test 1"], ["updated_at", "2015-03-24 23:51:51.151717"]]
+  [1m[35m (17.3ms)[0m  commit transaction
+Redirected to https://scavengerhuntphase3-eisenste.c9.io/events/3
+Completed 302 Found in 22ms (ActiveRecord: 17.7ms)
+
+
+Started GET "/events/3" for 72.193.47.225 at 2015-03-24 23:51:51 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mLocation Load (0.1ms)[0m  SELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?  [["event_id", 3]]
+  Rendered events/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 71ms (Views: 68.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:51:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.193.47.225 at 2015-03-24 23:51:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:51:51 +0000
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:51:53 +0000
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/3/edit" for 72.193.47.225 at 2015-03-24 23:51:55 +0000
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Exists (0.3ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 1 LIMIT 1  [["event_id", 3]]
+  [1m[36mLocation Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 2 LIMIT 1[0m  [["event_id", 3]]
+  [1m[35mLocation Exists (0.1ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 3 LIMIT 1  [["event_id", 3]]
+  [1m[36mLocation Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 4 LIMIT 1[0m  [["event_id", 3]]
+  [1m[35mLocation Exists (0.1ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 5 LIMIT 1  [["event_id", 3]]
+  Rendered events/_form.html.erb (13.6ms)
+  Rendered events/edit.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 67ms (Views: 64.1ms | ActiveRecord: 1.1ms)
+
+
+Started PATCH "/events/3" for 72.193.47.225 at 2015-03-24 23:51:59 +0000
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JlP0rfl/AA5SQ+SSWLHf6HFBwWWPNyA9suD+S1dWmDY=", "event"=>{"name"=>"Test 1"}, "add_locations"=>["1", "2", "3"], "commit"=>"Update Event", "id"=>"3"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mLocation Load (0.2ms)[0m  SELECT "locations".* FROM "locations"  WHERE "locations"."id" IN (1, 2, 3)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)  [["event_id", 3], ["location_id", 1]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)[0m  [["event_id", 3], ["location_id", 2]]
+  [1m[35m (9.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "events_locations" ("event_id", "location_id") VALUES (?, ?)  [["event_id", 3], ["location_id", 3]]
+  [1m[36m (13.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://scavengerhuntphase3-eisenste.c9.io/events/3
+Completed 302 Found in 42ms (ActiveRecord: 31.5ms)
+
+
+Started GET "/events/3" for 72.193.47.225 at 2015-03-24 23:52:04 +0000
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ?[0m  [["event_id", 3]]
+  Rendered events/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 87ms (Views: 83.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.193.47.225 at 2015-03-24 23:52:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:52:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:52:04 +0000
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:52:06 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "events" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-24 23:52:18.638215"], ["name", "Event 1"], ["updated_at", "2015-03-24 23:52:18.638215"]]
+  [1m[35m (12.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "events" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-24 23:52:18.657892"], ["name", "Event 2"], ["updated_at", "2015-03-24 23:52:18.657892"]]
+  [1m[36m (15.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-24 23:52:18.684782"], ["name", "Location 1"], ["tag", "xfRZP6LO"], ["updated_at", "2015-03-24 23:52:18.684782"]]
+  [1m[35m (18.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-24 23:52:18.706330"], ["name", "Location 2"], ["tag", "G6VUtnCE"], ["updated_at", "2015-03-24 23:52:18.706330"]]
+  [1m[36m (13.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-24 23:52:18.722096"], ["name", "Location 3"], ["tag", "fjmJ1EHC"], ["updated_at", "2015-03-24 23:52:18.722096"]]
+  [1m[35m (11.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-24 23:52:18.735711"], ["name", "Location 4"], ["tag", "RkDM9KyP"], ["updated_at", "2015-03-24 23:52:18.735711"]]
+  [1m[36m (12.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-24 23:52:18.750539"], ["name", "Location 5"], ["tag", "Yy8o7Z5v"], ["updated_at", "2015-03-24 23:52:18.750539"]]
+  [1m[35m (10.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "events" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-24 23:52:25.929813"], ["name", "Event 1"], ["updated_at", "2015-03-24 23:52:25.929813"]]
+  [1m[35m (12.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "events" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-24 23:52:25.946866"], ["name", "Event 2"], ["updated_at", "2015-03-24 23:52:25.946866"]]
+  [1m[36m (13.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-24 23:52:25.972038"], ["name", "Location 1"], ["tag", "aotifrTh"], ["updated_at", "2015-03-24 23:52:25.972038"]]
+  [1m[35m (49.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-24 23:52:26.024114"], ["name", "Location 2"], ["tag", "o4wlTmFV"], ["updated_at", "2015-03-24 23:52:26.024114"]]
+  [1m[36m (16.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-24 23:52:26.043094"], ["name", "Location 3"], ["tag", "jK3mSZdD"], ["updated_at", "2015-03-24 23:52:26.043094"]]
+  [1m[35m (29.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-24 23:52:26.075419"], ["name", "Location 4"], ["tag", "8dTvIkzo"], ["updated_at", "2015-03-24 23:52:26.075419"]]
+  [1m[36m (21.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "locations" ("created_at", "name", "tag", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-24 23:52:26.099320"], ["name", "Location 5"], ["tag", "Jc7Ob8kV"], ["updated_at", "2015-03-24 23:52:26.099320"]]
+  [1m[35m (24.5ms)[0m  commit transaction
+
+
+Started GET "/" for 72.193.47.225 at 2015-03-24 23:52:33 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 91ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:52:38 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 125ms (Views: 110.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:52:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.193.47.225 at 2015-03-24 23:52:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:52:38 +0000
+
+
+Started DELETE "/events/3" for 72.193.47.225 at 2015-03-24 23:52:48 +0000
+Processing by EventsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JlP0rfl/AA5SQ+SSWLHf6HFBwWWPNyA9suD+S1dWmDY=", "id"=>"3"}
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "events_locations" WHERE "events_locations"."event_id" = ?[0m  [["event_id", 3]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "events" WHERE "events"."id" = ?  [["id", 3]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+Redirected to https://scavengerhuntphase3-eisenste.c9.io/events
+Completed 302 Found in 45ms (ActiveRecord: 12.5ms)
+
+
+Started GET "/events" for 72.193.47.225 at 2015-03-24 23:52:48 +0000
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 72.193.47.225 at 2015-03-24 23:52:48 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.193.47.225 at 2015-03-24 23:52:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.193.47.225 at 2015-03-24 23:52:48 +0000
+
+
+Started GET "/events/4/edit" for 72.193.47.225 at 2015-03-24 23:52:53 +0000
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mLocation Load (0.4ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 1 LIMIT 1[0m  [["event_id", 4]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 2 LIMIT 1  [["event_id", 4]]
+  [1m[36mLocation Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 3 LIMIT 1[0m  [["event_id", 4]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 4 LIMIT 1  [["event_id", 4]]
+  [1m[36mLocation Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 5 LIMIT 1[0m  [["event_id", 4]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 6 LIMIT 1  [["event_id", 4]]
+  [1m[36mLocation Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 7 LIMIT 1[0m  [["event_id", 4]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 8 LIMIT 1  [["event_id", 4]]
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 9 LIMIT 1[0m  [["event_id", 4]]
+  [1m[35mLocation Exists (0.2ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 10 LIMIT 1  [["event_id", 4]]
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 11 LIMIT 1[0m  [["event_id", 4]]
+  [1m[35mLocation Exists (0.1ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 12 LIMIT 1  [["event_id", 4]]
+  [1m[36mLocation Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 13 LIMIT 1[0m  [["event_id", 4]]
+  [1m[35mLocation Exists (0.1ms)[0m  SELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 14 LIMIT 1  [["event_id", 4]]
+  [1m[36mLocation Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "locations" INNER JOIN "events_locations" ON "locations"."id" = "events_locations"."location_id" WHERE "events_locations"."event_id" = ? AND "locations"."id" = 15 LIMIT 1[0m  [["event_id", 4]]
+  Rendered events/_form.html.erb (85.0ms)
+  Rendered events/edit.html.erb within layouts/application (89.3ms)
+Completed 200 OK in 186ms (Views: 179.9ms | ActiveRecord: 3.8ms)
+
+
+Started PATCH "/events/4" for 72.193.47.225 at 2015-03-24 23:53:00 +0000
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JlP0rfl/AA5SQ+SSWLHf6HFBwWWPNyA9suD+S1dWmDY=", "event"=>{"name"=>"Event 3"}, "commit"=>"Update Event", "id"=>"4"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 4]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Location without an ID):
+  app/controllers/events_controller.rb:43:in `update'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.7ms)
